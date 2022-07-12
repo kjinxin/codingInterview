@@ -40,6 +40,7 @@ public class Revenue {
     public int[] getKCustomerRevenueAboveThreshold(int k, int threshold) {
         List<Integer> resList = new ArrayList<>();
         for (int i = 0; i < k; i ++) {
+            //higherEntry(threshold)
             Map.Entry<Integer, Set<Integer>> entry = rankedRevenue.ceilingEntry(threshold);
             resList.addAll(entry.getValue());
             threshold = entry.getKey() + 1;
@@ -58,6 +59,7 @@ public class Revenue {
         System.out.println();
     }
     public static void main(String[] args) {
+
         Revenue revenue = new Revenue();
         revenue.insert(10);
         revenue.insert(20, 0);

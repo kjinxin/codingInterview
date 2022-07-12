@@ -2,8 +2,6 @@ package databricks;
 
 import java.time.Instant;
 import java.util.*;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.Function;
 
 public class KVStoreQps<K, V> {
     private class Buffer {

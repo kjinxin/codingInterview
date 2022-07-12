@@ -61,7 +61,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class DashDelivery {
     class Trip {
         public int start, end, cap;
         public Trip(int start, int end, int cap) {
@@ -129,7 +129,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution so = new Solution();
+        DashDelivery so = new DashDelivery();
         /*
         Example1:
 Input:trips=[[2,1,5],[3,2,7]],capacity=4

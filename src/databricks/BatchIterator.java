@@ -4,7 +4,9 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.function.Function;
-
+/*
+https://www.1point3acres.com/bbs/thread-887981-1-1.html
+ */
 class Record {
     public String type;
     public Integer value;
